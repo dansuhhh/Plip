@@ -1,9 +1,9 @@
-# Pel
+# Plip
 
-Pel is a single-player, Pong-like game in which the player juggles balls as they bounce by and increase in number.
+Plip is a single-player, Pong-like game in which the player juggles balls as they bounce by and increase in number.
 
 ## Tech
-Pel will implement HTML, CSS, JavaScript, and jQuery as well as the following tools:
+Plip will implement HTML, CSS, JavaScript, and jQuery as well as the following tools:
 
   * the `keymaster` library to register key strokes
   * the `Canvas` API for visual rendering
