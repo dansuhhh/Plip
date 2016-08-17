@@ -20,10 +20,10 @@ h1 {
   font-size: 28px;
 }
 
+
+
 canvas {
   margin: 30px;
-  width: 300px;
-  height: 300px;
   background-color: black;
 }
 
@@ -32,17 +32,17 @@ section {
   flex-direction: row;
 }
 
-a {
+section a {
   height: 100px;
   width: 100px;
   background-size: cover;
 }
-a:nth-of-type(1) {
+section a:nth-of-type(1) {
   background-image: url("github.png");
 }
-a:nth-of-type(2) {
+section a:nth-of-type(2) {
   background-image: url("linkedin.png");
 }
-a:nth-of-type(3) {
+section a:nth-of-type(3) {
   background-image: url("home.png");
 }
