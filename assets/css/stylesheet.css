@@ -20,11 +20,10 @@ h1 {
   font-size: 28px;
 }
 
-
-
 canvas {
   margin: 30px;
-  background-color: black;
+  padding: 5px;
+  background-color: #F5F1DE;
 }
 
 section {
