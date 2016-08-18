@@ -27,9 +27,9 @@ The possibility of more than one ball colliding with the floor at a specific tim
 ## Timeline
 
 ### Phase 1 (Day 1):
-- [ ] Gravity and movement of a ball
-- [ ] Random color generation for ball
-- [ ] Player paddle (`keymaster`)
+- [X] Gravity and movement of a ball
+- [X] Random color generation for ball
+- [X] Player paddle (`keymaster`)
 
 ### Phase 2 (Day 2):
 - [ ] Increasing number of balls
