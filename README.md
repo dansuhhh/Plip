@@ -35,7 +35,7 @@ The possibility of more than one ball colliding with the floor at a specific tim
 - [X] Increasing number of balls
 - [X] `hasUniqueFall`
 - [X] score
-- [ ] audio for ball bounce, game over
+- [X] audio for ball bounce, game over
 - [ ] powerups (*bonus*)
 
 ### Phase 3 (Day 3):
