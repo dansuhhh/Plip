@@ -1,4 +1,4 @@
-html, body, h1 {
+html, body, h1, p, a, main, article, footer, i {
   margin: 0;
   padding: 0;
   border: 0;
@@ -14,34 +14,73 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #36454f;
+  font-family: 'Baloo Da', cursive;
+}
+
+a {
+  cursor: pointer;
+}
+
+main {
+  position: relative;
+  height: 605px;
+  width: 605px;
+  margin: 5px;
 }
 
 h1 {
+  font-size: 72px;
+}
+
+.start-btn {
+  border: 4px solid #36454f;
+  padding: 5px 10px;
   font-size: 28px;
 }
 
+.main-menu {
+  z-index: 2;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  padding: 5px;
+  background-color: #F5F1DE;
+  text-align: center;
+}
+
 canvas {
-  margin: 30px;
+  z-index:2;
+  position: absolute;
   padding: 5px;
   background-color: #F5F1DE;
 }
 
-section {
-  display: flex;
-  flex-direction: row;
+.game-over {
+  z-index: 2;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  padding: 5px;
+  background-color: #F5F1DE;
+  text-align: center;
 }
 
-section a {
-  height: 100px;
-  width: 100px;
-  background-size: cover;
+footer {
+  width: 605px;
 }
-section a:nth-of-type(1) {
-  background-image: url("github.png");
+
+footer p {
+  float: left;
 }
-section a:nth-of-type(2) {
-  background-image: url("linkedin.png");
+
+footer a {
+  float:right;
+  margin-left: 5px;
+  color: #36454f;
 }
-section a:nth-of-type(3) {
-  background-image: url("home.png");
+
+
+.hide {
+  z-index: 1;
 }

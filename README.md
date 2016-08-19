@@ -10,14 +10,14 @@ Plips will implement HTML, CSS, JavaScript, and jQuery as well as the following 
   * the `Web Audio` API for audio rendering
 
 ## Features
-- [ ] game menu page
-- [ ] falling balls with random velocity, affected by a universal gravity constant
-- [ ] increasing amount of balls to juggle (difficulty)
-- [ ] random color generation for each ball
-- [ ] player is allowed 3 lives/chances per game
-- [ ] rising score for each ball bounce
+- [X] game menu page
+- [X] falling balls with random velocity, affected by a universal gravity constant
+- [X] increasing amount of balls to juggle (difficulty)
+- [X] random color generation for each ball
+- [X] player is allowed 3 lives/chances per game
+- [X] rising score for each ball bounce
 - [ ] sounds for ball bouncing, losing a life, game over
-- [ ] game over page
+- [X] game over page
 - [ ] player allowed to enter name in leaderboard (*bonus*)
 - [ ] power ups (*bonus*)
 
@@ -32,15 +32,15 @@ The possibility of more than one ball colliding with the floor at a specific tim
 - [X] Player paddle (`keymaster`)
 
 ### Phase 2 (Day 2):
-- [ ] Increasing number of balls
-- [ ] `hasUniqueFall`
+- [X] Increasing number of balls
+- [X] `hasUniqueFall`
 - [X] score
 - [ ] audio for ball bounce, game over
 - [ ] powerups (*bonus*)
 
 ### Phase 3 (Day 3):
-- [ ] Create gamepage design/base canvas
-- [ ] Start/End menu
+- [X] Create gamepage design/base canvas
+- [X] Start/End menu
 - [ ] Leaderboard (*bonus*)
 
 
