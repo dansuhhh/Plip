@@ -39,6 +39,9 @@ h1 {
   margin: 10px;
   font-size: 28px;
 }
+.btn:hover {
+  padding: 5px 15px;
+}
 
 .instructions {
   font-size: 22px;
