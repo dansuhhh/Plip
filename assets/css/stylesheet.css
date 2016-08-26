@@ -74,10 +74,18 @@ h1 {
 }
 
 canvas {
-  z-index:2;
   position: absolute;
   padding: 5px;
   background-color: #F5F1DE;
+}
+
+.game {
+  z-index:2;
+}
+
+.extras {
+  background-color: transparent;
+  z-index: 4;
 }
 
 .game-over {
