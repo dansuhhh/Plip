@@ -88,6 +88,15 @@ canvas {
   z-index: 4;
 }
 
+.extraScreen {
+  z-index: 4;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  padding: 5px;
+  background-color: transparent;
+}
+
 .game-over {
   z-index: 2;
   position: absolute;
