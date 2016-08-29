@@ -19,10 +19,22 @@ Plips will implement HTML, CSS, JavaScript, and jQuery as well as the following 
 - [X] sounds for ball bouncing, losing a life, game over
 - [X] game over page
 - [ ] player allowed to enter name in leaderboard (*bonus*)
-- [ ] power ups (*bonus*)
+- [X] power ups (*bonus*)
 
-## Possible challenges
-The possibility of more than one ball colliding with the floor at a specific time is unfairly possible. Before a ball is rendered, an algorithm `hasUniqueFall` must be called to filter out this possibility.
+## Challenges/solutions
+
+#### Simulating difficulty
+More plips needed to appear as difficulty/time elapsed increased. However, this proved to be more complicated as the animation functions ran every 16.7 milliseconds due to `window.requestAnimationFrame`.
+
+![image of difficulty](difficulty.png)
+
+I simulated an "unfair coin toss" algorithm. With each iteration, a random float between 0 and 1 was chosen, and with the product of a constant with a `difficulty` variable that incremented every 4 seconds, the odds of a ball rendering rose.
+
+#### Delegating renders
+Rendering a paddle, a variable amount of plips, a score, remaining lives, powerups, and small effects is a lot for just one `Canvas`. Therefore, I created another `Canvas` on top of the main `Canvas` with a transparent background. This secondary `Canvas` was responsible for rendering the small effects that did not need any more incoming information once they were initialized.
+
+![image of extras](extras.png)
+
 
 ## Timeline
 
@@ -33,28 +45,14 @@ The possibility of more than one ball colliding with the floor at a specific tim
 
 ### Phase 2 (Day 2):
 - [X] Increasing number of balls
-- [X] `hasUniqueFall`
 - [X] score
 - [X] audio for ball bounce, game over
-- [ ] powerups (*bonus*)
+- [X] powerups (*bonus*)
 
 ### Phase 3 (Day 3):
 - [X] Create gamepage design/base canvas
 - [X] Start/End menu
 - [ ] Leaderboard (*bonus*)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- -->
