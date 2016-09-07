@@ -60,17 +60,50 @@ h1 {
   align-items: center;
 }
 
-.instruction-menu {
-  z-index: 2;
-  position: absolute;
-  width: 600px;
-  height: 600px;
-  padding: 5px;
-  background-color: #F5F1DE;
-  text-align: center;
+.example-keys {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
+}
+
+.key {
+  background-color: #36454f;
+  color: #F5F1DE;
+  border-radius: 10px;
+  opacity: .5;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-key-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.show-key {
+  opacity: 1;
+}
+
+.example-paddles {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.example-paddle {
+  opacity: 1;
+  border-bottom: 10px solid #36454f;
+  margin: 0 1px;
+  width: 200px;
+}
+
+.hide-paddle {
+  opacity: .5;
 }
 
 canvas {
